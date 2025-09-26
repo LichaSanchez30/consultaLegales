@@ -1,0 +1,7001 @@
+var baseSocios = [
+  {
+    contrato: "5013659/4",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "5013659/3",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "5013659/5",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "7412965/3",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "237321/4",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "39494/2",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "510690/1",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "978763/2",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "444084/4",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "3017428/3",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "7271018/3",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "864005/3",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "1768771/1",
+    codigo: 25010116,
+    prestacion: "Hidroterapia",
+  },
+  {
+    contrato: "782774/4",
+    codigo: 25030101,
+    prestacion: "Estimulación Visual Discapacidad",
+  },
+  {
+    contrato: "749709/3",
+    codigo: 25030101,
+    prestacion: "Estimulación Visual Discapacidad",
+  },
+  {
+    contrato: "7271018/3",
+    codigo: 25030110,
+    prestacion: "Estimulación Temprana (mensual)",
+  },
+  {
+    contrato: "604352/1",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "7032728/2",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "55175/3",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "605597/4",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "427264/1",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "261362/4",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "5015750/2",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "226160/4",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "5005727/3",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "6004830/4",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "444166/4",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "7412965/3",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "837084/2",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "782774/4",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "7082863/0",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "413055/2",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "968810/2",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "145769/2",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "510690/1",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "8008519/1",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "829495/3",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "7235425/4",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "19839/1",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "749709/3",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "2323275/1",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "5025115/1",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "954675/1",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "276999/2",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "7060913/3",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "3307081/2",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "9294/4",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "780376/4",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "602367/1",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "248237/2",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "782774/5",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "345159/3",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "6051299/1",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "220278/3",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "588265/4",
+    codigo: 25040101,
+    prestacion: "Kinesiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "261362/4",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "7082671/3",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "226160/4",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "5005727/3",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "837084/2",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "3152628/3",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "782774/4",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "244200/7",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "782774/5",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "114582/3",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "145769/2",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "1922256/3",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "510690/1",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "978763/2",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "829495/3",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "1599361/5",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "7235425/4",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "749709/3",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "5015750/2",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "3307081/2",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "892877/4",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "200777/5",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "112462/1",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "950091/1",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "220278/3",
+    codigo: 25040104,
+    prestacion: "Terapia Ocupacional DISCAPACIDAD",
+  },
+  {
+    contrato: "398871/3",
+    codigo: 25040110,
+    prestacion: "Rehabilitación - Modulo Integral Simple(semanal)",
+  },
+  {
+    contrato: "140855/3",
+    codigo: 25040110,
+    prestacion: "Rehabilitación - Modulo Integral Simple(semanal)",
+  },
+  {
+    contrato: "279449/1",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "450154/1",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "3664202/3",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "3393417/1",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "3359212/4",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "5011009/1",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "935454/2",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "1653261/2",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "1924055/3",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "7060913/3",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "549781/4",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "265408/5",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "7422072/5",
+    codigo: 25040111,
+    prestacion: "Rehabilitación-Modulo Integral Intensivo (semanal)",
+  },
+  {
+    contrato: "972901/3",
+    codigo: 25040112,
+    prestacion: "Rehabilitación-Hosp de Día Jornada Simple (mensual)",
+  },
+  {
+    contrato: "1549895/3",
+    codigo: 25040113,
+    prestacion: "Rehabilitación-Hosp de Día Jornada Doble (mensual)",
+  },
+  {
+    contrato: "7180706/2",
+    codigo: 25040114,
+    prestacion: "Rehabilitación - Internación (mensual)",
+  },
+  {
+    contrato: "560761/6",
+    codigo: 25040114,
+    prestacion: "Rehabilitación - Internación (mensual)",
+  },
+  {
+    contrato: "556130/1",
+    codigo: 25040114,
+    prestacion: "Rehabilitación - Internación (mensual)",
+  },
+  {
+    contrato: "7132340/0",
+    codigo: 25040114,
+    prestacion: "Rehabilitación - Internación (mensual)",
+  },
+  {
+    contrato: "6009243/1",
+    codigo: 25040114,
+    prestacion: "Rehabilitación - Internación (mensual)",
+  },
+  {
+    contrato: "183961/4",
+    codigo: 25040114,
+    prestacion: "Rehabilitación - Internación (mensual)",
+  },
+  {
+    contrato: "515828/1",
+    codigo: 25040114,
+    prestacion: "Rehabilitación - Internación (mensual)",
+  },
+  {
+    contrato: "450154/1",
+    codigo: 25050101,
+    prestacion: "Musicoterapia para Discapacidad",
+  },
+  {
+    contrato: "7259882/3",
+    codigo: 25050101,
+    prestacion: "Musicoterapia para Discapacidad",
+  },
+  {
+    contrato: "978763/2",
+    codigo: 25050101,
+    prestacion: "Musicoterapia para Discapacidad",
+  },
+  {
+    contrato: "444084/4",
+    codigo: 25050101,
+    prestacion: "Musicoterapia para Discapacidad",
+  },
+  {
+    contrato: "444084/3",
+    codigo: 25050101,
+    prestacion: "Musicoterapia para Discapacidad",
+  },
+  {
+    contrato: "892877/4",
+    codigo: 25050101,
+    prestacion: "Musicoterapia para Discapacidad",
+  },
+  {
+    contrato: "950091/1",
+    codigo: 25050101,
+    prestacion: "Musicoterapia para Discapacidad",
+  },
+  {
+    contrato: "345159/3",
+    codigo: 25050101,
+    prestacion: "Musicoterapia para Discapacidad",
+  },
+  {
+    contrato: "864005/3",
+    codigo: 25050101,
+    prestacion: "Musicoterapia para Discapacidad",
+  },
+  {
+    contrato: "671952/4",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "685571/3",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "236927/7",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "128580/3",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "904915/2",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "395943/2",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "5002506/4",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "1728570/3",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "1727120/4",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "5013659/5",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "7203018/2",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "1527912/1",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "7082671/3",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "7198875/4",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "807617/4",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "42608/2",
+    codigo: 33011217,
+    prestacion: "Cannabinoides para el tratamiento delaepilepsia refractaria.",
+  },
+  {
+    contrato: "604352/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "818057/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1183783/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "514999/5",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "462465/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "7259882/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "862952/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "750964/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "5015750/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "256714/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "616672/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "446360/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "617258/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "7208303/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "2295696/0",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "837084/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "778738/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "237321/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "134338/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "782774/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "244200/7",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "3593607/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1246906/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "439737/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "566550/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "254753/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "604320/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "609329/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "113929/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "349601/6",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1472927/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "476629/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "276999/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "366300/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "900060/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "152922/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1795466/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "138047/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "220728/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1243536/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1097602/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1322519/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "58106/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "7018233/0",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "781799/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "370940/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1184173/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1410473/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1920972/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1599361/5",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "205722/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "342069/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "127430/7",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "42180/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "127430/5",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "127430/6",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1281956/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "7248912/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1312585/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "442596/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "3130724/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "907951/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1483996/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "978763/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "3377586/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "815064/6",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "998102/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1469034/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "7124260/0",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "159265/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "7218774/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "892877/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "7163435/0",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "602367/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1048921/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "3017428/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "7121738/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "282691/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "365813/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "950091/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "345159/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "905498/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "348234/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "830485/5",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "810265/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "416629/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "110764/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1481127/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1483154/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "284601/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "756824/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "3900028/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1648012/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1156574/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "95347/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "737694/1",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "1053806/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "975311/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "920220/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "126196/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "127778/3",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "2071664/2",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "7203111/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "50543/4",
+    codigo: 33050101,
+    prestacion: "Acompañamiento Terapéutico por hora",
+  },
+  {
+    contrato: "604352/1",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "514999/5",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "559374/1",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "5013659/4",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "5013659/3",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "6004830/4",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "5013659/5",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "1207101/1",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "2295696/0",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "405343/3",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "5015750/2",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "49130/1",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "1795466/3",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "731591/2",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "366300/2",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "444084/4",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "444084/3",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "602367/1",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "7412965/4",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "444166/4",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "349601/6",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "183961/4",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "913673/1",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "937557/4",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "963728/1",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "782774/5",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "298235/3",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "782774/4",
+    codigo: 42010117,
+    prestacion: "Consulta para Discapacidad",
+  },
+  {
+    contrato: "604352/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "5007747/2",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "6002159/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "5015750/2",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "637411/2",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "5007579/5",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "7412965/3",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "188308/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "7265632/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "218682/2",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "937557/4",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "601002/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "220728/4",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "610010/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "1919908/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "58106/3",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "209902/4",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "1612484/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "310898/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "527819/5",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "770443/2",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "444084/4",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "444084/3",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "7124260/0",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "412018/3",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "7163435/0",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "602367/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "140786/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "2602577/3",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "1648012/2",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "2980/1",
+    codigo: 43150266,
+    prestacion: "Cuidadora en Internación domiciliaria por hora",
+  },
+  {
+    contrato: "604352/1",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "785311/3",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "261362/4",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "5005727/3",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "6004830/4",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "132807/3",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "145769/2",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "1920437/3",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "320529/2",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "14659/3",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "1023517/3",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "118184/3",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "602367/1",
+    codigo: 43150267,
+    prestacion: "Enfermeria en Internación domiciliariapor hora",
+  },
+  {
+    contrato: "261362/4",
+    codigo: 43190315,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "7262621/3",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "602367/1",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "963728/1",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "814672/7",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "7261994/3",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "7024461/1",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "367455/2",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "167007/1",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "167007/2",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "605597/4",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "510690/1",
+    codigo: 43190316,
+    prestacion: "Material Descartable",
+  },
+  {
+    contrato: "7032728/2",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "5017303/2",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "637411/2",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "6004830/4",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "782794/2",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "325118/1",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "154543/2",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "49130/1",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "1028403/1",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "2326331/0",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "427264/1",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "543415/2",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "5582/1",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "191640/2",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "696449/1",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "602367/1",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "3024899/4",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "1636004/2",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "600601/1",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "717287/2",
+    codigo: 43190339,
+    prestacion: "Pañales Descartables para Adultos",
+  },
+  {
+    contrato: "953866/2",
+    codigo: 43200019,
+    prestacion: "Ortesis Miembro Inferior",
+  },
+  {
+    contrato: "276999/2",
+    codigo: 43200019,
+    prestacion: "Ortesis Miembro Inferior",
+  },
+  {
+    contrato: "3393417/1",
+    codigo: 43330103,
+    prestacion: "Hospital de día Jornada Completa",
+  },
+  { contrato: "3664202/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "284601/1", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "235698/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "5013659/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "5013659/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "22227/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "5013659/5", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "5001652/5", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "444166/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "7412965/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "325118/1", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "7180706/2", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "837084/2", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "134338/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "237321/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "237321/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "56167/5", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "935454/2", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "837679/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "368831/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "937557/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "596550/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "398871/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "209902/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "749709/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "928184/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "276999/2", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "708693/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "444084/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "9294/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "840602/5", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "7259882/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "892877/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "200777/5", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "220728/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "2309620/0", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "2602577/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "549781/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "248237/2", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "183961/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "950091/1", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "49629/2", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "864005/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "114582/4", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "114582/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "445613/1", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "1481127/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "58106/3", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "385121/1", codigo: 44020152, prestacion: "Transporte * Km" },
+  { contrato: "2071664/2", codigo: 44020152, prestacion: "Transporte * Km" },
+  {
+    contrato: "237321/3",
+    codigo: 45010101,
+    prestacion: "Psicomotricidad para DISCAPACIDAD",
+  },
+  {
+    contrato: "237321/4",
+    codigo: 45010101,
+    prestacion: "Psicomotricidad para DISCAPACIDAD",
+  },
+  {
+    contrato: "1653261/2",
+    codigo: 45010101,
+    prestacion: "Psicomotricidad para DISCAPACIDAD",
+  },
+  {
+    contrato: "2343547/6",
+    codigo: 45010101,
+    prestacion: "Psicomotricidad para DISCAPACIDAD",
+  },
+  {
+    contrato: "444084/4",
+    codigo: 45010101,
+    prestacion: "Psicomotricidad para DISCAPACIDAD",
+  },
+  {
+    contrato: "444084/3",
+    codigo: 45010101,
+    prestacion: "Psicomotricidad para DISCAPACIDAD",
+  },
+  {
+    contrato: "9294/4",
+    codigo: 45010101,
+    prestacion: "Psicomotricidad para DISCAPACIDAD",
+  },
+  {
+    contrato: "892877/4",
+    codigo: 45010101,
+    prestacion: "Psicomotricidad para DISCAPACIDAD",
+  },
+  {
+    contrato: "922593/2",
+    codigo: 45010101,
+    prestacion: "Psicomotricidad para DISCAPACIDAD",
+  },
+  {
+    contrato: "3017428/3",
+    codigo: 45010101,
+    prestacion: "Psicomotricidad para DISCAPACIDAD",
+  },
+  {
+    contrato: "3664202/3",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "5000849/2",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "1334937/5",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "226160/4",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "5005727/3",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "22227/3",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "6004830/4",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "837084/2",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "237321/4",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "922593/2",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "244200/7",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "9294/4",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "114582/4",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "114582/3",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "708693/4",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "145769/2",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "5015750/2",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "978763/2",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "7235425/4",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "749709/3",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "1312585/3",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "892877/4",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "782774/4",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "950091/1",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "345159/3",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "58106/3",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "595021/4",
+    codigo: 45020101,
+    prestacion: "Fonoaudiología para DISCAPACIDAD",
+  },
+  {
+    contrato: "604352/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "605597/4",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "559374/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "7259882/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "5013659/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "328394/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "731591/2",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "1334937/5",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "226160/4",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "5013659/5",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "7128453/2",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "2295696/0",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "3017428/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "237321/4",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "3152628/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "922593/2",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "3838632/4",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "114582/4",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "114582/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "39494/2",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "1795466/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "1922256/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "510690/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "19839/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "749709/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "928184/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "22227/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "3307081/2",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "444084/4",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "3982138/4",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "7412965/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "602367/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "7412965/4",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "112462/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "183961/4",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "782774/5",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "282691/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "950091/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "345159/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "3984046/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "1653261/2",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "840362/4",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "843323/2",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "225183/1",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "864005/3",
+    codigo: 45030101,
+    prestacion: "Psicoterapia para DISCAPACIDAD",
+  },
+  {
+    contrato: "450154/1",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "235698/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "5013659/4",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "5013659/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "7082671/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "1334937/5",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "22227/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "5013659/5",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "812877/5",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "837084/2",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "237321/4",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "3152628/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "922593/2",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "244200/7",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "1922256/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "1667584/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "829495/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "1599361/5",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "2343547/6",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "928184/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "444084/4",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "444084/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "3982138/4",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "3017428/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "112462/1",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "782774/4",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "782774/5",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "950091/1",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "386279/2",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "840362/4",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "864005/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "110764/2",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "3593607/4",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "595021/4",
+    codigo: 45030102,
+    prestacion: "Psicopedagogía para DISCAPACIDAD",
+  },
+  {
+    contrato: "226160/4",
+    codigo: 45030103,
+    prestacion: "Sesión Orientación a Padres",
+  },
+  {
+    contrato: "22227/3",
+    codigo: 45030103,
+    prestacion: "Sesión Orientación a Padres",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 45030103,
+    prestacion: "Sesión Orientación a Padres",
+  },
+  {
+    contrato: "237321/4",
+    codigo: 45030103,
+    prestacion: "Sesión Orientación a Padres",
+  },
+  {
+    contrato: "457085/3",
+    codigo: 45030103,
+    prestacion: "Sesión Orientación a Padres",
+  },
+  {
+    contrato: "3017428/3",
+    codigo: 45030103,
+    prestacion: "Sesión Orientación a Padres",
+  },
+  {
+    contrato: "2360788/3",
+    codigo: 45030103,
+    prestacion: "Sesión Orientación a Padres",
+  },
+  {
+    contrato: "3838632/4",
+    codigo: 45040104,
+    prestacion: "Escuela de Educación Inicial",
+  },
+  {
+    contrato: "55175/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "226160/4",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "22227/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "256714/1",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "812877/5",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "7403604/2",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "1148688/4",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "3152628/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "922593/2",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "244200/7",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "782774/5",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "106292/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "1290478/4",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "1290478/5",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "814354/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "1914381/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "1896080/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "1922256/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "900253/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "1454927/2",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "731591/2",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "64631/4",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "978763/2",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "950091/1",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "3151905/2",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "7298891/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "412018/5",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "1480799/3",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "1480799/4",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "56167/5",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "3593607/4",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "7203111/4",
+    codigo: 45040107,
+    prestacion: "Módulo de Apoyo a la Integración escolar ",
+  },
+  {
+    contrato: "598429/2",
+    codigo: 45040110,
+    prestacion: "Escolaridad Pre- Primaria y PrimariaJornada Doble",
+  },
+  {
+    contrato: "442596/3",
+    codigo: 45040114,
+    prestacion: "Escolaridad Pre- Primaria y PrimariaJornada Simpl",
+  },
+  {
+    contrato: "837679/4",
+    codigo: 45040116,
+    prestacion: "Escolaridad Formación Laboral Jornada Doble Cat A",
+  },
+  {
+    contrato: "289512/4",
+    codigo: 45040116,
+    prestacion: "Escolaridad Formación Laboral Jornada Doble Cat A",
+  },
+  {
+    contrato: "22227/3",
+    codigo: 45040119,
+    prestacion: "Módulo  Maestro de Apoyo por hora",
+  },
+  {
+    contrato: "616672/2",
+    codigo: 45040119,
+    prestacion: "Módulo  Maestro de Apoyo por hora",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 45040119,
+    prestacion: "Módulo  Maestro de Apoyo por hora",
+  },
+  {
+    contrato: "237321/4",
+    codigo: 45040119,
+    prestacion: "Módulo  Maestro de Apoyo por hora",
+  },
+  {
+    contrato: "134338/3",
+    codigo: 45040119,
+    prestacion: "Módulo  Maestro de Apoyo por hora",
+  },
+  {
+    contrato: "978763/2",
+    codigo: 45040119,
+    prestacion: "Módulo  Maestro de Apoyo por hora",
+  },
+  {
+    contrato: "3265073/5",
+    codigo: 45040120,
+    prestacion: "Escolaridad Formación Laboral Jornada Simple Categ A",
+  },
+  {
+    contrato: "5001652/5",
+    codigo: 45040120,
+    prestacion: "Escolaridad Formación Laboral Jornada Simple Categ A",
+  },
+  {
+    contrato: "3982138/4",
+    codigo: 45040122,
+    prestacion: "Escolaridad Formación Laboral Jornada Simple Categ C",
+  },
+  {
+    contrato: "38434/3",
+    codigo: 45040122,
+    prestacion: "Escolaridad Formación Laboral Jornada Simple Categ C",
+  },
+  {
+    contrato: "298235/3",
+    codigo: 45040125,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA B",
+  },
+  {
+    contrato: "130849/2",
+    codigo: 45040125,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA B",
+  },
+  {
+    contrato: "1459444/3",
+    codigo: 45040125,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA B",
+  },
+  {
+    contrato: "177701/2",
+    codigo: 45040126,
+    prestacion: "ESCOLARIDAD PRIMARIA JORNADA COMPLETA CATEGORÍA B",
+  },
+  {
+    contrato: "557312/3",
+    codigo: 45040126,
+    prestacion: "ESCOLARIDAD PRIMARIA JORNADA COMPLETA CATEGORÍA B",
+  },
+  {
+    contrato: "616672/2",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "778738/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "134338/3",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "114582/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "114582/3",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "118184/3",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "366771/2",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "1922256/3",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "782774/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "7235425/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "928184/3",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "523516/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "9294/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "3982138/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "840602/5",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "117112/5",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "403063/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "699962/3",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "386279/2",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "348234/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "237321/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "843323/2",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "3593607/4",
+    codigo: 45040127,
+    prestacion: "Modulo Maestro de Apoyo(Mensual)",
+  },
+  {
+    contrato: "862952/3",
+    codigo: 45040128,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA DOBLECATEGORÍA   A",
+  },
+  {
+    contrato: "244200/7",
+    codigo: 45040128,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA DOBLECATEGORÍA   A",
+  },
+  {
+    contrato: "64918/3",
+    codigo: 45040128,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA DOBLECATEGORÍA   A",
+  },
+  {
+    contrato: "909176/3",
+    codigo: 45040128,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA DOBLECATEGORÍA   A",
+  },
+  {
+    contrato: "366300/2",
+    codigo: 45040128,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA DOBLECATEGORÍA   A",
+  },
+  {
+    contrato: "235698/3",
+    codigo: 45040128,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA DOBLECATEGORÍA   A",
+  },
+  {
+    contrato: "445690/1",
+    codigo: 45040128,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA DOBLECATEGORÍA   A",
+  },
+  {
+    contrato: "1048921/4",
+    codigo: 45040128,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA DOBLECATEGORÍA   A",
+  },
+  {
+    contrato: "476629/3",
+    codigo: 45040128,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA DOBLECATEGORÍA   A",
+  },
+  {
+    contrato: "49629/2",
+    codigo: 45040128,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA DOBLECATEGORÍA   A",
+  },
+  {
+    contrato: "5013659/4",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "22986/5",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "937557/4",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "1914381/3",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "749709/3",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "523516/4",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "699962/3",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "1727364/2",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "286727/3",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "1352479/2",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "635008/3",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "1481127/3",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "3029450/3",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "7412986/3",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "7290491/2",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "824712/3",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "7203111/4",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "892973/2",
+    codigo: 45040129,
+    prestacion: "ESCOLARIDAD PRIMARIA  JORNADA SIMPLECATEGORÍA   A",
+  },
+  {
+    contrato: "3387255/1",
+    codigo: 45050102,
+    prestacion: "Centro Educativo Terapéutico JornadaSimple Cat B",
+  },
+  {
+    contrato: "712720/3",
+    codigo: 45050103,
+    prestacion: "Centro Educativo Terapéutico JornadaDoble Cat A",
+  },
+  {
+    contrato: "68276/3",
+    codigo: 45050103,
+    prestacion: "Centro Educativo Terapéutico JornadaDoble Cat A",
+  },
+  {
+    contrato: "3017428/3",
+    codigo: 45050104,
+    prestacion: "Centro Educativo Terapéutico JornadaSimple Cat A",
+  },
+  {
+    contrato: "112462/1",
+    codigo: 45050104,
+    prestacion: "Centro Educativo Terapéutico JornadaSimple Cat A",
+  },
+  {
+    contrato: "1136837/2",
+    codigo: 45050108,
+    prestacion: "Residencia Permanente Categoría A",
+  },
+  {
+    contrato: "162172/2",
+    codigo: 45050110,
+    prestacion: "Hogar Permanente con Formación LaboralCategoría B",
+  },
+  {
+    contrato: "829558/3",
+    codigo: 45050110,
+    prestacion: "Hogar Permanente con Formación LaboralCategoría B",
+  },
+  {
+    contrato: "151920/2",
+    codigo: 45050111,
+    prestacion: "Hogar Permanente con Formación LaboralCategoría C",
+  },
+  {
+    contrato: "556937/1",
+    codigo: 45050113,
+    prestacion: "Hogar Lunes a Viernes con Centro deDiaCat. A",
+  },
+  {
+    contrato: "206344/4",
+    codigo: 45050115,
+    prestacion: "Hogar Lunes a Viernes con Centro deDiaCat. B",
+  },
+  {
+    contrato: "28276/2",
+    codigo: 45050115,
+    prestacion: "Hogar Lunes a Viernes con Centro deDiaCat. B",
+  },
+  {
+    contrato: "90349/2",
+    codigo: 45050116,
+    prestacion: "Hogar Lunes a Viernes con Centro deDiaCat.C",
+  },
+  {
+    contrato: "283462/1",
+    codigo: 45050116,
+    prestacion: "Hogar Lunes a Viernes con Centro deDiaCat.C",
+  },
+  {
+    contrato: "46662/1",
+    codigo: 45050116,
+    prestacion: "Hogar Lunes a Viernes con Centro deDiaCat.C",
+  },
+  {
+    contrato: "352346/4",
+    codigo: 45050116,
+    prestacion: "Hogar Lunes a Viernes con Centro deDiaCat.C",
+  },
+  {
+    contrato: "559374/1",
+    codigo: 45050119,
+    prestacion: "Centro de Dia Jornada Doble Categoría A",
+  },
+  {
+    contrato: "737694/1",
+    codigo: 45050119,
+    prestacion: "Centro de Dia Jornada Doble Categoría A",
+  },
+  {
+    contrato: "1762540/2",
+    codigo: 45050119,
+    prestacion: "Centro de Dia Jornada Doble Categoría A",
+  },
+  {
+    contrato: "1922256/3",
+    codigo: 45050119,
+    prestacion: "Centro de Dia Jornada Doble Categoría A",
+  },
+  {
+    contrato: "1457626/4",
+    codigo: 45050119,
+    prestacion: "Centro de Dia Jornada Doble Categoría A",
+  },
+  {
+    contrato: "868951/1",
+    codigo: 45050119,
+    prestacion: "Centro de Dia Jornada Doble Categoría A",
+  },
+  {
+    contrato: "763023/2",
+    codigo: 45050119,
+    prestacion: "Centro de Dia Jornada Doble Categoría A",
+  },
+  {
+    contrato: "227515/1",
+    codigo: 45050119,
+    prestacion: "Centro de Dia Jornada Doble Categoría A",
+  },
+  {
+    contrato: "437283/4",
+    codigo: 45050120,
+    prestacion: "Centro de Dia Jornada Simple CategoríaA",
+  },
+  {
+    contrato: "7132340/0",
+    codigo: 45050120,
+    prestacion: "Centro de Dia Jornada Simple CategoríaA",
+  },
+  {
+    contrato: "826134/3",
+    codigo: 45050120,
+    prestacion: "Centro de Dia Jornada Simple CategoríaA",
+  },
+  {
+    contrato: "220728/4",
+    codigo: 45050120,
+    prestacion: "Centro de Dia Jornada Simple CategoríaA",
+  },
+  {
+    contrato: "117505/2",
+    codigo: 45050121,
+    prestacion: "Centro de Dia Jornada Doble Categoría B",
+  },
+  {
+    contrato: "279981/3",
+    codigo: 45050121,
+    prestacion: "Centro de Dia Jornada Doble Categoría B",
+  },
+  {
+    contrato: "3597783/4",
+    codigo: 45050121,
+    prestacion: "Centro de Dia Jornada Doble Categoría B",
+  },
+  {
+    contrato: "7156722/1",
+    codigo: 45050122,
+    prestacion: "Centro de Dia Jornada Doble Categoría C",
+  },
+  {
+    contrato: "35562/2",
+    codigo: 45050122,
+    prestacion: "Centro de Dia Jornada Doble Categoría C",
+  },
+  {
+    contrato: "3982138/4",
+    codigo: 45050122,
+    prestacion: "Centro de Dia Jornada Doble Categoría C",
+  },
+  {
+    contrato: "559374/1",
+    codigo: 45050122,
+    prestacion: "Centro de Dia Jornada Doble Categoría C",
+  },
+  {
+    contrato: "484567/2",
+    codigo: 45050125,
+    prestacion: "CET Jornada Doble Categoría C",
+  },
+  {
+    contrato: "736122/2",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "76465/2",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "190878/1",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "7234877/0",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "5527/2",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "937557/1",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "197668/3",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "545622/1",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "50854/1",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "2103202/2",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "3360650/2",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "3966838/2",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "609534/1",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "81365/2",
+    codigo: 45050126,
+    prestacion: "Hogar Permanente Categoría B",
+  },
+  {
+    contrato: "8010946/1",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "818057/2",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "130846/2",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "48241/2",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "428084/2",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "1011294/1",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "7294413/2",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "5000849/2",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "3356705/1",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "3375275/1",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "1105634/1",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "610182/2",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "971473/1",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "7003765/0",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "992718/1",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "8009325/1",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "88313/2",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "62824/2",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "271276/1",
+    codigo: 45050127,
+    prestacion: "Hogar Permanente Categoría C",
+  },
+  {
+    contrato: "3376603/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "909093/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "999159/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "123631/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "201515/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2375081/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "603983/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5002892/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2364198/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1690035/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1007610/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "145161/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5013353/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5081532/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "892617/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "234121/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7035158/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7001583/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "612315/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "602730/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7085844/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "157041/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1017919/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6018633/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6013811/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "525407/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5015097/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3975426/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3300308/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "100525/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3039488/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5080671/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2374751/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7225286/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "149003/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "23023/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "218873/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7113370/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "184115/5",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "173783/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "140971/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "134177/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "129310/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1279918/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5053193/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "191263/5",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "600067/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "277707/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "220278/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2384/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "605597/4",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "683664/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "11903/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "17168/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "17168/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "351253/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "447335/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5015655/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "507048/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7036233/4",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7063650/4",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "74758/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5011009/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5018397/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5003966/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3383345/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7070466/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "948184/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6011043/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "22232/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "166339/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3039400/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "450154/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6014604/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6050578/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "250474/4",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6050386/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3554837/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3374050/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "76478/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "148599/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "118891/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5021641/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1002298/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2320950/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "484486/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "600974/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "125064/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1012586/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1024836/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "143136/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "146565/5",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "147429/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "181934/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "197401/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "224524/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2329563/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "233109/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "233314/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "219563/5",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "367455/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1105223/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "607648/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2366444/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1597646/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "145591/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6051299/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "21666/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "17055/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7017364/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "603213/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "520959/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5023745/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "8009840/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3377929/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "140928/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "25054/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "145591/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "266182/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3986824/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "600196/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "602087/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7115389/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "141333/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2370290/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5051450/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3021879/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6011043/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3296895/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "605877/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "522631/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "406720/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "8007230/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "104588/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "10495/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2368880/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "154543/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1387579/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1976/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2347656/4",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "90725/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "9572/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "413055/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7569/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3014897/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "228328/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "57994/4",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5012171/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2350333/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1896163/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "77314/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1028935/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "189171/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1028403/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2130588/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "604806/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6016205/6",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "16415/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "43528/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "285192/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7023177/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7238547/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "196311/5",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7180494/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "18401/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7194018/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6009871/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5009369/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2321898/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "328293/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "214924/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5000703/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "825939/4",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "9914/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "227120/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "99696/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "266792/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "266849/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "557759/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "8008072/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "343766/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2365804/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3040558/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7074264/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5010364/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "667681/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "278243/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5010143/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2366183/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "275139/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "18577/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7020147/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "113434/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "211601/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2326010/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "601032/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "150017/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3894034/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3038867/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2326331/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1027370/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7104492/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "20035/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "142140/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "602185/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "357855/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "123501/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "961097/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "224541/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5054882/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6014923/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "64514/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7005121/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "217741/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7008675/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7171921/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2119003/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "350230/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1023820/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6050407/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3149/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "8083/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "11166/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "14800/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "14800/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "592118/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "26911/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "153956/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1739076/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6017022/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2325119/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "161886/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "814672/7",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "12349/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3290952/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2329587/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "218563/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7222826/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7267826/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "239403/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "268725/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "348702/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "770943/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "919886/5",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2372201/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2507210/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3756817/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5081660/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7053880/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7071797/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2326987/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2321047/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7170270/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3367990/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "565209/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "602199/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "172131/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "159643/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "173627/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "450173/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "87975/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "8015322/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7012251/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "113434/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7118169/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "64060/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "194080/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "57121/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "647364/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7078149/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "600455/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2504981/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7089877/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "219649/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3001248/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "267370/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "673798/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "30437/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3551123/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "37369/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1031652/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2362451/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3281386/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "733671/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "978636/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7003029/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "8763/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7084099/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "210667/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "10878/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3040209/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1752716/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "605727/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "326632/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "720138/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "281929/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "191640/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "8010793/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "101620/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "17927/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "193394/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1028133/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3002340/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3374046/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3374046/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "170860/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3378185/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "609534/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7002518/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "10878/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7001638/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "229211/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7167142/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "134746/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6053005/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "8802/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "281135/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2372201/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "230376/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "188308/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3002138/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "574417/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3291755/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "605604/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7569/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "20054/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "141474/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7000718/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6050536/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "6050536/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "140574/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "254085/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2314857/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "815728/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "19504/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "889024/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "602761/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "88202/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "189453/5",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7172230/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5030395/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1846129/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "551368/3",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7092526/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "42942/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3365895/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2500276/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "30787/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "167007/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "600601/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "75967/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "5017387/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "141775/4",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "688776/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2604896/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "90449/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "3964277/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "167007/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "145361/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "133768/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "54889/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "7005022/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "79907/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "1029010/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2373904/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "402576/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "604628/1",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "2295696/0",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "227485/2",
+    codigo: 45050128,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría A",
+  },
+  {
+    contrato: "159653/2",
+    codigo: 45050129,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría B",
+  },
+  {
+    contrato: "2357182/0",
+    codigo: 45050129,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría B",
+  },
+  {
+    contrato: "28405/2",
+    codigo: 45050129,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría B",
+  },
+  {
+    contrato: "7177773/0",
+    codigo: 45050129,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría B",
+  },
+  {
+    contrato: "7008675/0",
+    codigo: 45050129,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría B",
+  },
+  {
+    contrato: "1022097/3",
+    codigo: 45050129,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría B",
+  },
+  {
+    contrato: "8832/1",
+    codigo: 45050129,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría B",
+  },
+  {
+    contrato: "58656/1",
+    codigo: 45050129,
+    prestacion: "Hogar Permanente Con Centro de Dia Categoría B",
+  },
+  {
+    contrato: "2369184/0",
+    codigo: 45050130,
+    prestacion: "Hogar Permanente Con Centrol de DiaCategoría C",
+  },
+  {
+    contrato: "1183783/3",
+    codigo: 45050130,
+    prestacion: "Hogar Permanente Con Centrol de DiaCategoría C",
+  },
+  {
+    contrato: "190520/1",
+    codigo: 45050130,
+    prestacion: "Hogar Permanente Con Centrol de DiaCategoría C",
+  },
+  {
+    contrato: "5001015/2",
+    codigo: 45050130,
+    prestacion: "Hogar Permanente Con Centrol de DiaCategoría C",
+  },
+  {
+    contrato: "2601020/0",
+    codigo: 45050130,
+    prestacion: "Hogar Permanente Con Centrol de DiaCategoría C",
+  },
+  {
+    contrato: "771336/2",
+    codigo: 45050130,
+    prestacion: "Hogar Permanente Con Centrol de DiaCategoría C",
+  },
+  {
+    contrato: "220522/1",
+    codigo: 45050130,
+    prestacion: "Hogar Permanente Con Centrol de DiaCategoría C",
+  },
+  {
+    contrato: "3979462/2",
+    codigo: 45050130,
+    prestacion: "Hogar Permanente Con Centrol de DiaCategoría C",
+  },
+  {
+    contrato: "7142507/2",
+    codigo: 45050130,
+    prestacion: "Hogar Permanente Con Centrol de DiaCategoría C",
+  },
+  {
+    contrato: "147443/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "8001748/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "452916/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "168928/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "200726/3",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "129715/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "102917/2",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "14103/2",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "228712/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "264223/2",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "30850/2",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "7077943/5",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "5082442/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "245973/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "551598/5",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "180540/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "2335472/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "109428/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "7005379/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "1013252/2",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "3381292/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "3174518/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "3380883/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "2371350/0",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "169372/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "3569682/2",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "5015276/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "314546/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "158359/4",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "327992/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "75956/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "3905165/1",
+    codigo: 45050131,
+    prestacion: "Hogar Permanente con CET Categoría A",
+  },
+  {
+    contrato: "277707/1",
+    codigo: 45050132,
+    prestacion: "Hogar Permanente con CET Categoría B",
+  },
+  {
+    contrato: "265206/5",
+    codigo: 45050132,
+    prestacion: "Hogar Permanente con CET Categoría B",
+  },
+  {
+    contrato: "940698/2",
+    codigo: 45050133,
+    prestacion: "Hogar Permanente con CET Categoría C",
+  },
+  {
+    contrato: "1713749/2",
+    codigo: 45050133,
+    prestacion: "Hogar Permanente con CET Categoría C",
+  },
+  {
+    contrato: "55175/3",
+    codigo: 45050133,
+    prestacion: "Hogar Permanente con CET Categoría C",
+  },
+  {
+    contrato: "17171/2",
+    codigo: 45050133,
+    prestacion: "Hogar Permanente con CET Categoría C",
+  },
+  {
+    contrato: "327446/1",
+    codigo: 45050133,
+    prestacion: "Hogar Permanente con CET Categoría C",
+  },
+  {
+    contrato: "588158/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "88762/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "121410/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "559374/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7259882/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "367455/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3664202/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3895954/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "635569/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "235698/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "46662/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "960243/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "5013659/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "5013659/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "261362/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3265073/5",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7082671/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3377586/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "731591/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "456892/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "47008/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3069391/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "323161/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3366124/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "5013659/5",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3024899/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7074226/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7150232/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "5001652/5",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "782794/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "35562/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1886824/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "5007579/5",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7128453/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "837084/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "814147/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1814398/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "134338/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1796095/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3359212/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1024931/7",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "325118/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "218682/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "56167/5",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3009365/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3029450/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1387579/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1503858/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "114582/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "114582/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "937557/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "314740/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "601002/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7242644/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "108278/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1469034/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "130849/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "366771/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1803228/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7242644/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "902933/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1396202/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "604352/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "68276/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1184173/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "841427/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "978763/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "116864/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7290491/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "64918/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "177701/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "398871/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1535549/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3367526/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "977584/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7188297/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7235425/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "173627/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1851511/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "2005345/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "527819/5",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1312585/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7240972/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "598109/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "763898/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3006562/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "537937/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "56013/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7215605/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "57994/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "91771/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "444084/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "444084/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "605597/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3982138/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "840602/5",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "892877/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "200777/5",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "209661/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "191640/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "349601/6",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1206957/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "112462/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "940095/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "766956/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "549781/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "598109/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1852205/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "913673/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "968810/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "708693/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "2314640/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "840400/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "265408/5",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1669828/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "237321/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7422643/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "510690/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3838632/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "551368/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "2053502/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1422262/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "955707/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3021245/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7217233/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "488168/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "595021/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7222480/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7203111/4",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "7261994/3",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "1753245/1",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "90449/2",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "3290000/0",
+    codigo: 45050134,
+    prestacion: "Prestaciones de Apoyo",
+  },
+  {
+    contrato: "186259/3",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5011720/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3542191/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "162172/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "79168/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "600779/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5012171/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "274859/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7205536/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "8017076/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5082063/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "147370/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "956656/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "747485/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7078609/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "601957/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1017919/3",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "272257/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "275478/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "529452/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "602140/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7032728/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "260648/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "605597/4",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "683664/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "833372/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1976/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "8003074/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1408513/4",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1408513/5",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "279449/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "90449/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "9294/4",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "48045/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "115771/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "515784/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5017303/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1852205/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1026112/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "103548/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "169769/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "186288/4",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "545037/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "26920/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5001969/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5000811/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "257636/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7418156/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "8008229/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "6051120/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "6009688/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "427264/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "14216/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "46662/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3030055/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1451108/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "25950/3",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5009128/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "91771/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "602689/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "186941/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2342373/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "272984/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "184224/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "53788/4",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3021879/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2600234/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3363150/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "604320/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2312733/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "748082/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5016197/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7025863/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "607854/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "935454/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "8004626/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5006435/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2130588/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "295863/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1268871/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7062516/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "118582/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7147051/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5006465/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1115614/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2610800/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "152270/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1538881/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5021372/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "8003395/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2176175/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1803228/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2351349/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1023200/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "228237/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5080017/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "192291/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "25144/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "68876/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "195187/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "600567/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "50854/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7104492/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "218066/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "737924/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "909289/4",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "107306/5",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "233171/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "510690/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "69399/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "8008519/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7104492/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "227288/4",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5030688/7",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3271159/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1029895/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "89141/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "192761/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "383003/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "519778/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "8009325/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7083853/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "47692/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1013547/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1924055/3",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "799889/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3037224/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3032357/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2504257/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "19839/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "8015845/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "87975/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2323275/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "6014161/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "83538/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2362451/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "215441/5",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "36411/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "6052627/3",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "8011090/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "6051386/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7029535/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "181077/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1025914/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "13499/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "770651/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7163435/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "475485/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "32498/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2322039/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5080450/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7085780/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3363131/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7003956/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7001583/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "188308/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "8013502/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "69340/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2364988/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7014393/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7045209/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "270894/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2607836/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7264512/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "6004749/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3974215/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "69435/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "6006997/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "588265/4",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "223989/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1138820/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "248615/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "2509012/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "7000295/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "99748/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "273776/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3363599/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1334835/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "1353549/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "74879/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5000849/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3036934/0",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "600513/2",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "113434/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "3036999/20",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "6006724/1",
+    codigo: 45050135,
+    prestacion: "Hogar Permanente Categoría A",
+  },
+  {
+    contrato: "5025115/1",
+    codigo: 99013001,
+    prestacion: "Anteojos",
+  },
+];
+
+
+
+
+
+
+
+
+
