@@ -144,6 +144,7 @@ h1{
 .seleccionPrestacion{
     font-size: 15px;
     font-weight: bold;
+    height: max-content;
 }
 .seleccionPrestacion input{
     margin-right: 15px;
