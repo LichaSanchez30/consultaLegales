@@ -127,14 +127,14 @@ tbody tr:hover {
 
 .contenedor{
     margin: 0 auto;
-    height: 200px;
+    height: max-content;
     width: 1150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: hsla(0, 0%, 96%, 0.463);
-    
+    padding-bottom: 40px ;
 }
 
 h1{
